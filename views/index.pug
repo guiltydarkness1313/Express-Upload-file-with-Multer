@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Ejemplo de subida de archivos con Node JS
+  form(action="/upload" enctype="multipart/form-data" method="post")
+    input(type="file" name="photo")
+    //the id of the input is photo and it will be identified in the server of Node
+    input(type="submit" value="Upload photo")
+
+

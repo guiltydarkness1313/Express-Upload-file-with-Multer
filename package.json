@@ -1,0 +1,17 @@
+{
+  "name": "subida-de-archivos",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./app.js"
+  },
+  "dependencies": {
+    "nodemon": "^1.17.5",
+    "multer": "^1.3.0",
+    "jquery": "^3.3.1",
+    "express": "^4.16.3",
+    "body-parser": "^1.18.3",
+    "pug": "^2.0.3"
+  }
+}
